@@ -44,7 +44,7 @@ if vd.isOpened() :
     elif key == ord(' '):  # space키를 누르면 좌우 반전
         is_flipped = not is_flipped
 else :
-  print('rtsp 스트림 연결 실패')
+  print('스트림 연결 실패')
 
 cv.destroyAllWindows()
 
