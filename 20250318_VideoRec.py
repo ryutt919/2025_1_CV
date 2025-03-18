@@ -29,8 +29,8 @@ if vd.isOpened() :
     font = cv.FONT_HERSHEY_SIMPLEX  # 폰트 설정
     cv.putText(img, "R: rec", (30, 30), font, 0.6, (0, 0, 0), 2, cv.LINE_AA)  # 녹화 텍스트
     cv.putText(img, 'R: rec', (30, 30), font, 0.6, (0, 255, 0), 1, cv.LINE_AA)  
-    cv.putText(img, 'F: flip', (30, 60), font, 0.6, (0, 0, 0), 2, cv.LINE_AA)  # 반전 텍스트
-    cv.putText(img, 'F: flip', (30, 60), font, 0.6, (0, 255, 0), 1, cv.LINE_AA)  
+    cv.putText(img, 'SPACE: flip', (30, 60), font, 0.6, (0, 0, 0), 2, cv.LINE_AA)  # 반전 텍스트
+    cv.putText(img, 'SPACE: flip', (30, 60), font, 0.6, (0, 255, 0), 1, cv.LINE_AA)  
     cv.putText(img, 'ESC: exit', (30, 90), font, 0.6, (0, 0, 0), 2, cv.LINE_AA)  # 종료 텍스트  
     cv.putText(img, 'ESC: exit', (30, 90), font, 0.6, (0, 255, 0), 1, cv.LINE_AA)  
 
@@ -41,7 +41,7 @@ if vd.isOpened() :
     elif key == ord('r'): # R키를 누르면 녹화 시작/종료
         is_recording = not is_recording
 
-    elif key == ord('f'):  # F키를 누르면 좌우 반전
+    elif key == ord(' '):  # space키를 누르면 좌우 반전
         is_flipped = not is_flipped
 else :
   print('rtsp 스트림 연결 실패')
