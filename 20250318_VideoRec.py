@@ -1,7 +1,7 @@
 import cv2 as cv
 
 vd = cv.VideoCapture(0)
-fourcc = cv.VideoWriter_fourcc(*'MJPG')
+fourcc = cv.VideoWriter_fourcc(*'XVID')
 save = cv.VideoWriter('webcam_rec.avi', fourcc, 60, (1280, 960))
 
 is_recording = False
