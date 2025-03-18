@@ -24,14 +24,18 @@ wait_msec = int(1 / fps * 1000)를 사용하여 cv.waitKey()의 딜레이를 조
 
 5. **해당 기능들을 putText를 통해 테두리가 있는 글씨로 표시**
 
-**기본화면
+**기본화면**
+
 ![image](https://github.com/user-attachments/assets/d48048a9-ba15-40d1-b735-d265ea59ac98)
 
-**녹화
+**녹화**
+
 ![image](https://github.com/user-attachments/assets/c8d22c09-26b2-41e3-ab09-0d1bf721d495)
 
-**반전
+**반전**
+
 ![image](https://github.com/user-attachments/assets/ad855cdc-6942-4e9f-8ca2-9919499f9cf8)
 
-**저장된 모습
+**저장된 모습**
+
 ![image](https://github.com/user-attachments/assets/22cdffaf-1843-43c6-99b5-54e988b7c62f)
